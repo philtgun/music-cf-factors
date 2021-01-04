@@ -23,3 +23,8 @@ mv config_example.py config.py
 ```shell
 pip install pre-commit black isort flake8
 ```
+
+## Run
+```shell
+python -m app.extract song_factors.npy
+```
