@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import logging
-import os
 from argparse import ArgumentParser
 
 import numpy as np
@@ -29,7 +28,6 @@ def extract(output_file: str):
 
 
 if __name__ == "__main__":
-    os.environ["OPENBLAS_NUM_THREADS"] = "1"
     parser = ArgumentParser()
     parser.add_argument("input_file")
     args = parser.parse_args()
