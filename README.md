@@ -42,7 +42,7 @@ cp config_example.py config.py
 ## Running
 
 ```shell
-python -m app.extract song_factors.npy
+python -m app.extract
 ```
 
 ## Development

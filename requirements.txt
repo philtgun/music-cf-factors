@@ -1,3 +1,4 @@
 implicit~=0.4.4
 numpy~=1.19.4
 h5py~=3.1.0
+pandas~=1.2.0
