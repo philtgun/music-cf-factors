@@ -13,8 +13,13 @@ pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 
-## Development
+## Config
 
+```shell
+mv config_example.py config.py
+```
+
+## Development
 ```shell
 pip install pre-commit black isort flake8
 ```
