@@ -14,7 +14,7 @@ def extract(factors_file: str, songs_file: str):
     songs, users, plays = get_msd_taste_profile()
 
     logging.info("Saving songs")
-    np.save(songs_file, songs[:, 0])
+    np.save(songs_file, songs[:, 0].astype("U"))
 
     logging.info("Weighting matrix by bm25_weight")
     # values taken from implicit.examples
